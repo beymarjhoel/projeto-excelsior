@@ -7,5 +7,5 @@ import com.generation.excelsior.model.Pokemon;
 
 @Repository
 public interface PokemonRepository extends JpaRepository<Pokemon, Long> {
-	public List<Pokemon> findAllByTipoContainingIgnoreCase (String categoria);
+	public List<Pokemon> findAllByTipoContainingIgnoreCase (String tipo);
 }
