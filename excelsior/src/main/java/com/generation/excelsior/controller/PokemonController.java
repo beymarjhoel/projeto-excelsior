@@ -20,7 +20,7 @@ import com.generation.excelsior.repository.PokemonRepository;
 
 @RestController
 @RequestMapping("/pokemons")
-@CrossOrigin(origins = "*", allowedHeaders = "*")
+@CrossOrigin("*")
 public class PokemonController {
 
 	@Autowired
